@@ -7,6 +7,35 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Верстай звёздный рейтинг тут -->
+    <main class="page">
+
+      <section class="card" aria-label="Звёздный рейтинг">
+        <div class="rating" aria-label="Рейтинг от 1 до 5">
+          <span id="r1" class="rating__target" aria-hidden="true"></span>
+          <span id="r2" class="rating__target" aria-hidden="true"></span>
+          <span id="r3" class="rating__target" aria-hidden="true"></span>
+          <span id="r4" class="rating__target" aria-hidden="true"></span>
+          <span id="r5" class="rating__target" aria-hidden="true"></span>
+
+          <div class="rating__stars" role="radiogroup" aria-label="Рейтинг">
+            <a class="rating__star" href="#r5" role="radio" aria-label="5 из 5">
+              <span class="rating__starIcon" aria-hidden="true"></span>
+            </a>
+            <a class="rating__star" href="#r4" role="radio" aria-label="4 из 5">
+              <span class="rating__starIcon" aria-hidden="true"></span>
+            </a>
+            <a class="rating__star" href="#r3" role="radio" aria-label="3 из 5">
+              <span class="rating__starIcon" aria-hidden="true"></span>
+            </a>
+            <a class="rating__star" href="#r2" role="radio" aria-label="2 из 5">
+              <span class="rating__starIcon" aria-hidden="true"></span>
+            </a>
+            <a class="rating__star" href="#r1" role="radio" aria-label="1 из 5">
+              <span class="rating__starIcon" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
